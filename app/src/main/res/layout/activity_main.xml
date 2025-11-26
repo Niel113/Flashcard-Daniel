@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="who is the 44th president of united states?"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:alpha="0.5" />
+
+    
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_add"
+        />
+        
+
+
+</RelativeLayout>
